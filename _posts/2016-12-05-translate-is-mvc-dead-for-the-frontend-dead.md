@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "【译】前端 MVC 已死吗？"
+title: "译：前端 MVC 已死吗？"
 tags: ["前端架构","mvc","单向架构"]
 ---
 （译文发布于[众成翻译](http://www.zcfy.cc/article/is-model-view-controller-dead-on-the-front-end-1603.html)，这是[英文原文](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.q25l7qkpu)）

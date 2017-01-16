@@ -6,6 +6,10 @@ title: "首页"
 <ul class="posts">
     {% for post in site.posts %}
         <li>
+            <span class="date">
+                {{ post.date | date: "%y" }}年
+                {{ post.date | date: "%m"}}月
+                {{post.date | date: "%d"}}日</span>
             <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
     {% endfor %}
