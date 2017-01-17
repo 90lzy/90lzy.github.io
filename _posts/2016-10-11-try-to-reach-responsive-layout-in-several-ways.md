@@ -15,7 +15,7 @@ tags: ["css", "bootstrap", "flexbox"]
 
 HTML结构如下：
 
-```html
+```
 // html
 
 <section class="blog">

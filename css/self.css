@@ -9,7 +9,7 @@
     /*background-color: rgb(248, 245, 242);*/
 }
 
-ul.posts {
+.posts {
     list-style-type: none;
 }
 
@@ -28,6 +28,7 @@ a {
 .date {
     margin-right: 8px;
     color: #999;
+    font-size: 80%;
 }
 
 img {
