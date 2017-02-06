@@ -23,3 +23,5 @@ tags: ["工具","翻墙"]
 
 1. [科学上网利器 Shadowsocks 使用方法](https://ttt.tt/150/)
 1. [如何翻墙（全方位入门扫盲）](https://program-think.blogspot.com/2009/05/how-to-break-through-gfw.html)
+
+（完）

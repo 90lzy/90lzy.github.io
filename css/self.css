@@ -34,3 +34,10 @@ a {
 img {
     max-width: 100%;
 }
+
+.copyright {
+    margin-top: 68px;
+    border-top: solid 1px #999;
+    text-align: center;
+    /*color: #999;*/
+}
