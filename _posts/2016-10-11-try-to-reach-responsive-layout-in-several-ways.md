@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "如何实现简单的响应式两栏居中布局"
-tagline: ""
-description: ""
 tags: ["css", "bootstrap", "flexbox"]
 ---
 
