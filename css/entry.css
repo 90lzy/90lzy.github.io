@@ -277,7 +277,7 @@ body {
 .entry h1 {
   font-size: 28px;
   line-height: 48px;
-  text-align: center;
+  text-align: left;
 }
 .entry h2 {
   font-size: 21px;
