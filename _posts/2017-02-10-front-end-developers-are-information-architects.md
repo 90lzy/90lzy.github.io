@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "译：前端开发者亦是「信息建筑师」"
-tags: ["前端", "翻译"]
+title: "（译）前端开发者亦是「信息建筑师」"
+tags: ["翻译", "前端"]
 ---
-（查看原文 [Front-End Developers Are Information Architects Too](https://24ways.org/2016/front-end-developers-are-information-architects-too/?utm_source=Frontend+Weekly&utm_campaign=48c2e5385c-EMAIL_CAMPAIGN_2017_01_11&utm_medium=email&utm_term=0_9af01549dd-48c2e5385c-710613017)，或在众成翻译网站查看 [该译文](http://www.zcfy.cc/article/front-end-developers-are-information-architects-too-9670-24-ways-2488.html)）
+
+> 原文：[Front-End Developers Are Information Architects Too](https://24ways.org/2016/front-end-developers-are-information-architects-too/?utm_source=Frontend+Weekly&utm_campaign=48c2e5385c-EMAIL_CAMPAIGN_2017_01_11&utm_medium=email&utm_term=0_9af01549dd-48c2e5385c-710613017)  
+> 原文作者：Francis Storr
+
 
 （译者写在前面：「信息建筑师」原文是 information architect，而 architect 在计算机领域常译为架构师，但此处没有这样译。因为文中把网页开发者编写 HTML 代码比拟为传统建筑师排布一砖一瓦，然后才说前端开发者也是一种建筑师，信息建筑师。）
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "译：网页色彩死抠指南"
+title: "（译）网页色彩死抠指南"
 tagline: "Translate: A Nerd's Guide to Color On the Web"
 description: "分析显示器颜色原理"
 tags: ["color", "css"]

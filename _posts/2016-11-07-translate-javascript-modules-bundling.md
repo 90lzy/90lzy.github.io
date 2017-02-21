@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "译：继 JavaScript 模块入门，再详解“模块打包"
+title: "（译）继 JavaScript 模块入门，再详解“模块打包"
 tagline: ""
 description: ""
 tags: ["javascript","模块"]
