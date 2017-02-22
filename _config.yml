@@ -2,3 +2,6 @@ comments:
   provider: duoshuo
   duoshuo:
     short_name: liuzhiyuan
+
+markdown: kramdown
+highlighter: pygments
