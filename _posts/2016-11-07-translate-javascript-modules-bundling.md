@@ -1,17 +1,10 @@
 ---
 layout: post
-title: "（译）继 JavaScript 模块入门，再详解“模块打包"
+title: "[译] 继 JavaScript 模块入门，再详解“模块打包"
 tagline: ""
 description: ""
 tags: ["javascript","模块"]
 ---
-
-（译文发布于[众成翻译](http://www.zcfy.cc/article/javascript-modules-part-2-module-bundling-1386.html)，这是[英文原文](https://medium.freecodecamp.com/javascript-modules-part-2-module-bundling-5020383cf306#.fjulakt54)）
-
-
-![](http://p0.qhimg.com/t01dd3e11baa5334f0b.jpg)
-
-
 在这篇文章的[第一部分](http://www.zcfy.cc/article/javascript-modules-a-beginner-s-guide-1378.html)，我谈到了什么是模块，开发者为什么使用它们，以及，在你的程序中实现模块的不同方式。
 
 在这第二部分，将会回答打包模块到底意味着什么：为什么要打包，打包的不同方法，以及在网页开发中模块的未来发展。
@@ -332,5 +325,10 @@ HTTP/1 只允许一次 TCP 连接发送一个请求，所以在加载多个资�
 一如既往，请在评论中自由交流、提问。
 
 祝你“捆绑”（bundle）愉快！
+
+（译文发布于[众成翻译](http://www.zcfy.cc/article/javascript-modules-part-2-module-bundling-1386.html)，这是[英文原文](https://medium.freecodecamp.com/javascript-modules-part-2-module-bundling-5020383cf306#.fjulakt54)）
+
+
+![](http://p0.qhimg.com/t01dd3e11baa5334f0b.jpg)
 
 （完）

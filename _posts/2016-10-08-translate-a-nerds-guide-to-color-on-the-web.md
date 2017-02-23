@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "（译）网页色彩死抠指南"
+title: "[译] 网页色彩死抠指南"
 tagline: "Translate: A Nerd's Guide to Color On the Web"
 description: "分析显示器颜色原理"
 tags: ["color", "css"]
 ---
-
-（译文发布在[众成翻译](http://www.zcfy.cc/article/a-nerd-039-s-guide-to-color-on-the-web-1328.html)，英文原文来自 [A Nerd’s Guide to Color on the Web](https://css-tricks.com/nerds-guide-color-web/)。）
-
 网页色彩的使用方式有很多。而我认为，但凡用一件东西，懂得其原理肯定大有裨益。网页色彩也不例外。现在就来死抠一下网页色彩的究竟吧。
 
 ### 颜色混合
@@ -380,5 +377,8 @@ Una 的文章深入探究了这里所提的所有特性，你还可以通过Amel
 ### 总结
 
 这篇文章涵盖极广，而网页上的颜色有很多可待深究，希望这篇短文为你的实践和理解提供了一个跳板。
+
+（译文发布在[众成翻译](http://www.zcfy.cc/article/a-nerd-039-s-guide-to-color-on-the-web-1328.html)，英文原文来自 [A Nerd’s Guide to Color on the Web](https://css-tricks.com/nerds-guide-color-web/)。）
+
 
 （完）

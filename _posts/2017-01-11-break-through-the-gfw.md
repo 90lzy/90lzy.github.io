@@ -3,6 +3,9 @@ layout: post
 title: "助你翻墙一臂之力"
 tags: ["工具","翻墙"]
 ---
+
+1987 年 9 月 20 日，中国连上国际互联网后发出的第一封电子邮件上写着：「Across the Great Wall, we can reach every corner in the world」（越过长城，走向世界）。
+
 ## 名词解释
 
 翻墙，翻的是「长城防火墙（the Great Fire Wall）」，这个行为坊间又称为「科学上网」。

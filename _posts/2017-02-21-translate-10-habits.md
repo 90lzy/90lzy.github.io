@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "（译）高效程序员的另外 10 个习惯（续上篇）"
+title: "[译] 高效程序员的另外 10 个习惯（续上篇）"
 tags: ["翻译", "工作习惯"]
+origin-article: "10 Habits of Highly Effective Programmers—Part II"
+origin-link: "https://webapplog.com/10-habits-2/"
+origin-author: "Azat Mardan"
 ---
-
-> 原文：[10 Habits of Highly Effective Programmers—Part II](https://webapplog.com/10-habits-2/)  
-> 原文作者：Azat Mardan
 
 几周以前我写了 [高效程序员的 10 个习惯](http://webapplog.com/10-habits)，这篇是它的续集，又列了 10 个习惯。这些虽非一成不变的铁律，却是我亲见行之有效的，尤其对于你想成为优异的开发者并享受工作和职业而言（[要得到了不起的工作，先成为了不起的人](http://amzn.to/2dgPyEs)）。
 

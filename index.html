@@ -1,16 +1,64 @@
 ---
 layout: default
 title: "首页"
+nav-name: "home"
 ---
 
-<section class="entry black-href">
-    {% for post in site.posts %}
-        <p>
-            <span class="date">
-                {{ post.date | date: "%y" }}年
-                {{ post.date | date: "%m"}}月
-                {{post.date | date: "%d"}}日</span>
-            <a href="{{ post.url }}" class="black">{{ post.title }}</a>
-        </p>
-    {% endfor %}
+<section class="">
+    <ul class="home-post-list">
+
+
+        {% for post in paginator.posts %}
+        <!--<p>-->
+        <!--<span class="date">-->
+        <!--{{ post.date | date: "%y" }}年-->
+        <!--{{ post.date | date: "%m"}}月-->
+        <!--{{post.date | date: "%d"}}日</span>-->
+        <!--<a href="{{ post.url }}" class="black">{{ post.title }}</a>-->
+        <!--</p>-->
+        <!--<div class="blog-post">-->
+        <!--<h3 class="">{{ post.title }}</h3>-->
+        <!--<p class="blog-post-meta">-->
+        <!--{{ post.date | date: "%y" }}年-->
+        <!--{{ post.date | date: "%m"}}月-->
+        <!--{{post.date | date: "%d"}}日<a href="">{{post.autor}}</a>-->
+        <!--</p>-->
+
+        <!--{{ post.excerpt }}-->
+        <!--</div>&lt;!&ndash; /.blog-post &ndash;&gt;-->
+        <li class="home-post-list-item">
+            <article class="post-block">
+                <h3 class="post-title"><a href="{{ post.url }}"> {{post.title}} </a></h3>
+                <div class="post-info">
+                    {{ post.date | date: "%y" }}年
+                    {{ post.date | date: "%m"}}月
+                    {{post.date | date: "%d"}}日
+                </div>
+                <div class="post-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords:50 }}
+                    <div class="read-more">
+                        <a href="{{ post.url }}" title="阅读全文">阅读全文</a>
+                    </div>
+                </div>
+            </article>
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">上一页</a>
+        {% else %}
+        <span class="previous">上一页</span>
+        {% endif %}
+        <span class="page_number ">页码: {{ paginator.page }} / {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">下一页</a>
+        {% else %}
+        <span class="next ">下一页</span>
+        {% endif %}
+    </div>
 </section>

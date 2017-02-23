@@ -1,31 +1,87 @@
 <!DOCTYPE html>
+<!-- saved from url=(0039)https://getbootstrap.com/examples/blog/ -->
 <html lang="zh-cmn-Hans">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="liu zhiyuan">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"/>
-    <title>善意的闲人-{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/self.css">
-    <link rel="stylesheet" href="/css/entry.css">
-</head>
+{% include head.html %}
+
 <body>
-    <header class="top-header">
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li><a href="/">文章列表</a></li>
-                <li><a href="/2017-resume">简历</a></li>
-            </ul>
+
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item" href="/" data-name="home" title="首页">首页</a>
+            <a class="blog-nav-item" href="/2017-resume" data-name="resume" title="简历">简历</a>
         </nav>
-    </header>
+    </div>
+</div>
 
-    <section class="content-container">
-        {{ content }}
-    </section>
+<div class="container">
 
-    <footer>
-    </footer>
+    <div class="blog-header">
+        <!--<h1 class="blog-title">善意的闲人</h1>-->
+        <!--<p class="lead blog-description"></p>-->
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            {{ content }}
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>关于</h4>
+                <p>善意的闲人</p>
+                <p>……</p>
+            </div>
+            <div class="sidebar-module">
+                <h4>归档</h4>
+                <ol class="list-unstyled">
+                    <li><a href="/" title="暂时空缺">嗷嗷待补……</a></li>
+                </ol>
+            </div>
+            <div class="sidebar-module">
+                <h4>其它</h4>
+                <ol class="list-unstyled">
+                    <li><a href="https://github.com/90lzy" target="_blank">GitHub</a></li>
+                    <li><a href="http://www.zcfy.cc/column/@90lzy">众成翻译专栏</a></li>
+                </ol>
+            </div>
+        </div><!-- /.blog-sidebar -->
+
+    </div><!-- /.row -->
+
+</div><!-- /.container -->
+
+<footer class="blog-footer">
+    <p>
+        版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">创意共享3.0许可证)</a>
+    </p>
+</footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/js/jquery.min.js"></script>
+<!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+<script src="/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    $(function () {
+        console.log("{{page.nav-name}}");
+        var thisPage = $(".blog-nav-item[data-name='{{page.nav-name}}']");
+        if (thisPage) {
+            thisPage.addClass("active");
+        }
+
+    })
+</script>
+
+
 </body>
 </html>

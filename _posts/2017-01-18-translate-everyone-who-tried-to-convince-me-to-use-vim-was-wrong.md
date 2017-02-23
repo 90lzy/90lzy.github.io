@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "（译）以前每个苦口婆心说服我使用 vim 的人都错了"
+title: "[译] 以前每个苦口婆心说服我使用 vim 的人都错了"
 tags: ["工具","编辑器","vim","vi"]
 ---
-
-（查看原文 [Everyone Who Tried to Convince Me to use Vim was Wrong](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/)，在**众成翻译**网站查看[这篇译文](http://www.zcfy.cc/article/everyone-who-tried-to-convince-me-to-use-vim-was-wrong-2336.html)）
 
 几个星期之前，我冒险尝试换用 vim 编辑器（准确的说是 MacVIM 编辑器）。这不是我第一次尝试，过去的“恩恩怨怨”我已经全部一笔勾销。
 
@@ -41,5 +39,7 @@ tags: ["工具","编辑器","vim","vi"]
 说“显而易见啊，你学 vim **当然**得一步步来”的那些人，我只想对他们说，过去我跟许许多多的 vim 用户聊过，却从没得到过那样的建议。相反，我得到一大堆“敦敦教诲”——说什么禁用方向键啊，别用鼠标啊，学习用（效率更高的） vim 方式做**所有事**——全部一股脑抛给我。那些人就是受不了我继续用一个过时的操作指令（像`apple-f`），觉得 vim 明明有更好的工具可用。
 
 那些正考虑用 vim 的人，我给出的建议是用 MacVIM，配上 NEDTree、PeepOpen（或 [command-t](http://github.com/wincent/Command-T)），还有鼠标、方向键和所有你想用的熟悉的 OSX 操作。不久，显然会有更好的方式去做所有这类事情。当你短期内就成功地完成转换，又没丧失工作能力时，便会大加赞赏这种新发现的高效率工具。
+
+（查看原文 [Everyone Who Tried to Convince Me to use Vim was Wrong](http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/)，在**众成翻译**网站查看[这篇译文](http://www.zcfy.cc/article/everyone-who-tried-to-convince-me-to-use-vim-was-wrong-2336.html)）
 
 （完）

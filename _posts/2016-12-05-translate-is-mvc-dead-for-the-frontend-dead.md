@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "（译）前端 MVC 已死吗？"
+title: "[译] 前端 MVC 已死吗？"
 tags: ["前端架构","mvc","单向架构"]
 ---
-（译文发布于[众成翻译](http://www.zcfy.cc/article/is-model-view-controller-dead-on-the-front-end-1603.html)，这是[英文原文](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.q25l7qkpu)）
-
-![](http://p0.qhimg.com/t010ee52a04b27a942e.png)
 
 越来越多的前端开发者采用[单向架构](http://staltz.com/unidirectional-user-interface-architectures.html)。那么经典的“模型-视图-控制（MVC）”前景如何呢？
 
@@ -85,5 +82,9 @@ MVC 在最初是很有必要的，因为我们的前端应用程序越来越庞�
 这类架构会是接下来五年内最好的解决方案吗？——很有可能，不过话又说回来，没有什么是绝对肯定的。
 
 五年前，没人能够预测我们如今会如何写应用程序。所以我觉得现在就对未来下定论不太保险。
+
+（译文发布于[众成翻译](http://www.zcfy.cc/article/is-model-view-controller-dead-on-the-front-end-1603.html)，这是[英文原文](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.q25l7qkpu)）
+
+![](http://p0.qhimg.com/t010ee52a04b27a942e.png)
 
 （完）
