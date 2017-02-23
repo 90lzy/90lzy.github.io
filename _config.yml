@@ -4,7 +4,7 @@ comments:
     short_name: liuzhiyuan
 
 markdown: kramdown
-highlighter:
+highlighter: rouge
 paginate_path: "/blog/page:num/"
 paginate: 3
 gems: [jekyll-paginate]
