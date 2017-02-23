@@ -15,7 +15,7 @@ body {
     /*line-height: 2;*/
     color: #424b50;
     word-wrap: break-word;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "Wenquanyi Micro Hei", sans-serif;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -233,3 +233,37 @@ h6, .h6 {
     font-size: 14px;
 }
 
+/*
+标题样式
+ */
+.h1:first-child, h1:first-child,
+.h2:first-child, h2:first-child,
+.h3:first-child, h3:first-child,
+.h4:first-child, h4:first-child,
+.h5:first-child, h5:first-child,
+.h6:first-child, h6:first-child {
+  margin-top: 0;
+}
+
+.h1, h1 {
+  font-size: 28px;
+  line-height: 48px;
+  text-align: left;
+}
+.h2, h2 {
+  font-size: 21px;
+  line-height: 32px;
+  text-align: left;
+}
+.h3, h3 {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+}
+.h4, h4,
+.h5, h5,
+.h6 h6 {
+  line-height: 32px;
+  font-size: 16px;
+  text-align: left;
+}
