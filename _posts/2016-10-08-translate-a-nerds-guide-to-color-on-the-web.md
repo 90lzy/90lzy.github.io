@@ -380,5 +380,4 @@ Una 的文章深入探究了这里所提的所有特性，你还可以通过Amel
 
 （译文发布在[众成翻译](http://www.zcfy.cc/article/a-nerd-039-s-guide-to-color-on-the-web-1328.html)，英文原文来自 [A Nerd’s Guide to Color on the Web](https://css-tricks.com/nerds-guide-color-web/)。）
 
-
 （完）
