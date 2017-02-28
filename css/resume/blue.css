@@ -58,8 +58,8 @@ blockquote, q {
 body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     background-color: #e1e0db;
-    background-image: url(../images/bg.jpg);
-    background-repeat: repeat;
+    /*background-image: url(../images/bg.jpg);*/
+    /*background-repeat: repeat;*/
     font-size: 14px;
     line-height: 17px;
     color: #000;
@@ -95,8 +95,8 @@ a:hover {
     width: 969px;
     height: 19px;
     margin: 0 auto;
-    background-image: url(../images/btop.jpg);
-    background-repeat: no-repeat;
+    /*background-image: url(../images/btop.jpg);*/
+    /*background-repeat: no-repeat;*/
 }
 
 .wrapper-mid {
@@ -311,7 +311,7 @@ ul.unordered li {
     float: left;
     display: block;
     width: 500px;
-    background-image: url(../images/bullet.gif);
+    background-image: url(/img/resume/bullet.gif);
     background-repeat: no-repeat;
     padding-left: 10px;
     background-position: 0 .5em;
@@ -331,7 +331,7 @@ ul.info li {
     float: left;
     display: block;
     width: 490px;
-    background-image: url(../images/bullet.gif);
+    background-image: url(/img/resume/bullet.gif);
     background-repeat: no-repeat;
     padding-left: 10px;
     background-position: 0 .5em;
@@ -354,7 +354,7 @@ ul.skills li {
     padding: 0;
     float: left;
     width: 156px;
-    background-image: url(../images/bullet.gif);
+    background-image: url(/img/resume/bullet.gif);
     background-repeat: no-repeat;
     padding-left: 10px;
     background-position: 0 .5em;
@@ -913,7 +913,7 @@ ul.hobits li {
     padding: 0;
     /*float:left;*/
     /*width:276px;*/
-    background-image: url(../images/bullet.gif);
+    background-image: url(/img/resume/bullet.gif);
     background-repeat: no-repeat;
     padding-left: 10px;
     background-position: 0 .5em;
