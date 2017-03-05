@@ -6,16 +6,7 @@
 
 <body>
 
-<div class="blog-masthead">
-    <div class="container">
-        <nav class="blog-nav">
-            <a class="blog-nav-item" href="/" data-name="home" title="首页">首页</a>
-            <a class="blog-nav-item" href="/archives" data-name="archives" title="归档">归档</a>
-            <a class="blog-nav-item" href="/about" data-name="about" title="关于">关于</a>
-            <a class="blog-nav-item" href="/2017-resume" data-name="resume" title="简历">简历</a>
-        </nav>
-    </div>
-</div>
+{% include top-nav.html %}
 
 <div class="container">
 
@@ -68,7 +59,7 @@
 
 <script>
     $(function () {
-        console.log("{{page.nav-name}}");
+        // console.log("{{page.nav-name}}");
         var thisPage = $(".blog-nav-item[data-name='{{page.nav-name}}']");
         if (thisPage) {
             thisPage.addClass("active");

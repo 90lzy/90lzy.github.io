@@ -267,3 +267,83 @@ h6, .h6 {
   font-size: 16px;
   text-align: left;
 }
+
+/* resume-responsive */
+.re-page {
+    /*background-color: #7ec2f3;*/
+    font-size: 14px;
+}
+.re-content-block {
+    color: black;
+    margin-bottom: 32px;
+    padding-top: 16px;
+    color: #333;
+}
+#profile {
+}
+#experience {
+}
+#projects {
+}
+#skills {
+}
+.re-name {
+    /*text-align: right;*/
+}
+.re-timeline {
+}
+.re-block-title {
+    padding: 10px 15px;
+    margin-bottom: 32px;
+    background-color: #d73435;
+    color: white;
+    font-weight: lighter;
+    font-size: 140%;
+}
+.re-exp-item {
+    margin-bottom: 24px;
+}
+.re-exp-item:last-child {
+    margin-bottom: 0;
+}
+.re-project-img {
+    font-size: 300%;
+    /*text-align: center;*/
+}
+
+/*#skills span {*/
+    /*display: inline-block;*/
+    /*margin-right: 16px;*/
+    /*border: solid 1px #d73435;*/
+    /*border-radius: 5px;*/
+/*}*/
+.re-tag {
+    background-color: #096254;
+    color: #aee2d9;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    /*opacity: 0.5;*/
+}
+.re-tags-row {
+    margin-bottom: 16px;
+}
+.re-tags-row:last-child {
+    margin-bottom: 0;
+}
+.re-profile-pic {
+    width: 100%;
+    border-radius: 4px;
+}
+.re-objection {
+    font-size: 70%;
+}
+.re-project-name {
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.re-padding {
+    height: 16px;
+}
