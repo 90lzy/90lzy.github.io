@@ -295,7 +295,8 @@ h6, .h6 {
 .re-block-title {
     padding: 10px 15px;
     margin-bottom: 32px;
-    background-color: #d73435;
+    /*background-color: #d73435;*/
+    background-color: #d75000;
     color: white;
     font-weight: lighter;
     font-size: 140%;
