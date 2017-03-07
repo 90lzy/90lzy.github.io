@@ -209,18 +209,22 @@ h6, .h6 {
     padding: 0;
     list-style-type: none;
 }
+
 .post-block {
     margin-bottom: 32px;
 }
+
 .post-title {
     font-weight: bold;
     font-size: 18px;
 }
+
 .post-info {
     font-size: 14px;
     color: #999;
     margin: 8px 0;
 }
+
 .post-excerpt {
     font-size: 16px;
 }
@@ -228,6 +232,7 @@ h6, .h6 {
 .blog-post img {
     max-width: 100%;
 }
+
 .read-more {
     margin-top: 8px;
     font-size: 14px;
@@ -242,30 +247,33 @@ h6, .h6 {
 .h4:first-child, h4:first-child,
 .h5:first-child, h5:first-child,
 .h6:first-child, h6:first-child {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .h1, h1 {
-  font-size: 28px;
-  line-height: 48px;
-  text-align: left;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: left;
 }
+
 .h2, h2 {
-  font-size: 21px;
-  line-height: 32px;
-  text-align: left;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: left;
 }
+
 .h3, h3 {
-  font-size: 18px;
-  line-height: 32px;
-  text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
 }
+
 .h4, h4,
 .h5, h5,
 .h6 h6 {
-  line-height: 32px;
-  font-size: 16px;
-  text-align: left;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: left;
 }
 
 /* resume-responsive */
@@ -273,50 +281,61 @@ h6, .h6 {
     /*background-color: #7ec2f3;*/
     font-size: 14px;
 }
+
 .re-content-block {
     color: black;
-    margin-bottom: 32px;
-    padding-top: 16px;
+    margin-bottom: 16px;
+    /*padding-top: 16px;*/
     color: #333;
 }
+
 #profile {
 }
+
 #experience {
 }
+
 #projects {
 }
+
 #skills {
 }
+
 .re-name {
     /*text-align: right;*/
 }
+
 .re-timeline {
 }
+
 .re-block-title {
     padding: 10px 15px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     /*background-color: #d73435;*/
     background-color: #d75000;
     color: white;
     font-weight: lighter;
     font-size: 140%;
 }
+
 .re-exp-item {
     margin-bottom: 24px;
 }
+
 .re-exp-item:last-child {
     margin-bottom: 0;
 }
+
 .re-project-img {
     font-size: 300%;
     /*text-align: center;*/
 }
 
 /*#skills span {*/
-    /*display: inline-block;*/
-    /*margin-right: 16px;*/
-    /*border: solid 1px #d73435;*/
-    /*border-radius: 5px;*/
+/*display: inline-block;*/
+/*margin-right: 16px;*/
+/*border: solid 1px #d73435;*/
+/*border-radius: 5px;*/
 /*}*/
 .re-tag {
     background-color: #096254;
@@ -328,23 +347,42 @@ h6, .h6 {
     margin-bottom: 3px;
     /*opacity: 0.5;*/
 }
+
 .re-tags-row {
     margin-bottom: 16px;
 }
+
 .re-tags-row:last-child {
     margin-bottom: 0;
 }
+
 .re-profile-pic {
     width: 100%;
     border-radius: 4px;
 }
+
 .re-objection {
+    display: inline-block;
+    padding: 5px;
     font-size: 70%;
+    background-color: #991b00;
+    border-radius: 3px;
 }
+
 .re-project-name {
     font-weight: bold;
     margin-bottom: 24px;
 }
+
 .re-padding {
     height: 16px;
+}
+#check-more-experience {
+    /*position: relative;*/
+    /*left: 86%;*/
+    margin-left: 16px;
+}
+.re-project-tag {
+    color: #096254;
+    font-weight:bold;
 }
