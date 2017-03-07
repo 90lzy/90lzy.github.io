@@ -386,3 +386,6 @@ h6, .h6 {
     color: #096254;
     font-weight:bold;
 }
+.re-margin-bottom {
+    margin-bottom: 24px;
+}
