@@ -894,7 +894,7 @@ label.error {
 }
 
 .name {
-    font-size: 42px;
+    font-size: 26px;
     line-height: 42px;
 }
 
@@ -927,4 +927,9 @@ ul.hobits li {
 }
 .no-margin-top {
     margin-top: 0 !important;
+}
+.re-phone {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 80px;
 }
