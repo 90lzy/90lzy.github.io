@@ -166,12 +166,12 @@ $(function () {
         $(".taiji-drag-pieces").addClass("hide");
         $(".gate-left").animate({
             left: "-4.2rem"
-        }, 1000, function () {
+        }, 2000, function () {
             $(".gate-left").addClass("hide");
         });
         $(".gate-right").animate({
             right: "-4.2rem"
-        }, 1000, function () {
+        }, 2000, function () {
             $(".gate-right").addClass("hide");
         });
     }
