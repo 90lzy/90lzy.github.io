@@ -3,7 +3,7 @@ layout: post
 title: "为了思考而写作"
 tagline: "Writing, Thinking"
 description: "先为了思考问题而写作，而非为了展示什么而写作"
-tags: ["写作"]
+tags: ["或可一看"]
 ---
 
 人的脑子除了睡觉不受控制，其它清醒时间都在自主活动，怎么能不思考呢？但脑子虽然在动，又有多少是思考的成分呢？
